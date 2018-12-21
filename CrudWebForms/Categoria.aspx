@@ -16,7 +16,7 @@
         <ContentTemplate>
             <div class="row" id="divGridCategoria">
                 <div class="col-md-12">
-                    <asp:GridView runat="server" HeaderStyle-HorizontalAlign="Center" CssClass="table table-hover" ClientIDMode="Static" GridLines="None" AutoGenerateColumns="false" ID="gridCategoria">
+                    <asp:GridView runat="server" ShowHeaderWhenEmpty="true" EmptyDataText="Sem registros" HeaderStyle-HorizontalAlign="Center" CssClass="table table-hover" ClientIDMode="Static" GridLines="None" AutoGenerateColumns="false" ID="gridCategoria">
                         <Columns>
                             <asp:BoundField ItemStyle-HorizontalAlign="Center" DataField="Id" HeaderText="ID" />
                             <asp:BoundField ItemStyle-HorizontalAlign="Center" DataField="Nome" HeaderText="Nome" />

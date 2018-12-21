@@ -18,7 +18,7 @@
         <div class="col-md-12">
             <asp:UpdatePanel runat="server">
                 <ContentTemplate>
-                    <asp:GridView runat="server" HeaderStyle-HorizontalAlign="Center" ShowHeaderWhenEmpty="true" EmptyDataText="Sem registros   " CssClass="table table-hover" ClientIDMode="Static" GridLines="None" AutoGenerateColumns="false" ID="gridEstoque">
+                    <asp:GridView runat="server" HeaderStyle-HorizontalAlign="Center" ShowHeaderWhenEmpty="true" EmptyDataText="Sem registros" CssClass="table table-hover" ClientIDMode="Static" GridLines="None" AutoGenerateColumns="false" ID="gridEstoque">
                         <Columns>
                             <asp:BoundField ItemStyle-HorizontalAlign="Center" DataField="Id" HeaderText="ID" />
                             <asp:BoundField ItemStyle-HorizontalAlign="Center" DataField="Nome" HeaderText="Nome" />
