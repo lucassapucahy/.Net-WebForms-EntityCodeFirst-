@@ -76,6 +76,7 @@
             $('#divGridEstoque').show();
 
             $('#gridEstoque').DataTable({
+                "scrollX": true,
                 "language": {
                     "sEmptyTable": "Nenhum registro encontrado",
                     "sInfo": "Mostrando de _START_ até _END_ de _TOTAL_ registros",
